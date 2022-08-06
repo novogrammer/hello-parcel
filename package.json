@@ -1,0 +1,24 @@
+{
+  "name": "hello-parcel",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "parcel './src/*.pug'",
+    "clean": "rm ./dist/*",
+    "build": "npm run clean; parcel build './src/*.pug'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Yusuke Kawamoto <novogrammer@gmail.com> (https://github.com/novogrammer/)",
+  "license": "ISC",
+  "dependencies": {
+    "three": "^0.143.0"
+  },
+  "devDependencies": {
+    "@parcel/config-default": "^2.7.0",
+    "@parcel/transformer-pug": "^2.7.0",
+    "@parcel/transformer-sass": "^2.7.0",
+    "@parcel/transformer-typescript-tsc": "^2.7.0",
+    "parcel": "^2.7.0"
+  }
+}
